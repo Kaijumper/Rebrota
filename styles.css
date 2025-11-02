@@ -100,9 +100,11 @@ body {
   opacity: 0;
   transition: opacity 0.8s ease-out;
   top: 45%;
-  left: 50%;
+  left: 45%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  width: 150px;
+  box-sizing: border-box;
 }
 
 .animal-container.visible {
@@ -127,6 +129,7 @@ body {
   font-size: 9px;
   white-space: nowrap;
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .overlay-text {
